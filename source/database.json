@@ -1,3 +1,24 @@
+{
+  "factions": {
+    "2": "Terminids",
+    "3": "Automatons",
+    "4": "Illuminate"
+  },
+  "planets": {
+    "4088126157": {
+      "name": "Matar-Bay",
+      "icon": "pl-matar-bay"
+    }
+  },
+  "missions": {
+    "1803185034": {
+      "name": "Start Fuel Pumps",
+      "icon": "mis_sfp"
+    }
+  }
+}
+
+
 FACTIONS = {
     2: "Terminids",
     3: "Automatons",
