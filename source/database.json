@@ -1,1 +1,124 @@
-123
+FACTIONS = {
+    2: "Terminids",
+    3: "Automatons",
+    4: "Illuminate",
+}
+
+DIFFICULTIES = {
+    1: "Trivial",
+    2: "Easy",
+    3: "Medium",
+    4: "Challenging",
+    5: "Hard",
+    6: "Extreme",
+    7: "Suicide Mission",
+    8: "Impossible",
+    9: "Helldive",
+    10: "Super Helldive",
+}
+
+PLANETS = {
+    4088126157: {"name": "Matar-Bay", "icon": "pl-matar-bay"},
+    2013327304: {"name": "Martale", "icon": "pl-martale"}
+}
+
+# Каталог типов миссий по 32-битным хэшам
+MISSIONS = {
+    # gen
+    1803185034: {"name": "Start Fuel Pumps", "icon": "mis_sfp"},
+    4255863235: {"name": "Upload Escape Pod Data", "icon": "mis_uepd"},
+    9931639163850870800: {"name": "Conduct Geological Survey", "icon": "mis_cgs"},
+    5175037935804739600: {"name": "Spread Democracy", "icon": "mis_sd"},
+    123: {"name": "Retrieve Essential Personnel", "icon": ""}, #disabled
+    5481075561689685000: {"name": "Terminate Illegal Broadcast", "icon": "mis_tib"},
+    8761561951219758100: {"name": "Retrieve Recon Craft Intel", "icon": "mis_rrci"},
+    13000162715830987000: {"name": "Launch ICBM", "icon": "mis_licbm"},
+    14148283958100287000: {"name": "Retrieve Valuable Data", "icon": "mis_rvd"},
+    375379483891663300: {"name": "Emergency Evacuation", "icon": "mis_ee"},
+    123: {"name": "Evacuate High-Value Assets", "icon": "mis_ehva"}, #def event only >5
+    # bug
+    14782369304093755000: {"name": "Conduct Mobile E-711 Extraction", "icon": "mis_cm711e"},
+    11535262503238590000: {"name": "Extract E-711", "icon": "mis_e711"},
+    000: {"name": "Deactivate Terminid Control System", "icon": ""}, # unact
+    000: {"name": "Deploy Dark Fluid", "icon": ""}, #unact
+    123: {"name": "Blitz: Secure Research Site", "icon": ""}, # ?
+    123: {"name": "Collect Gloom Spore Readings", "icon": "mis_ebc"},
+    123: {"name": "Collect Meteorological Data", "icon": "mis_ebc"},
+    000: {"name": "Activate TCS+ Station", "icon": ""}, #unact
+    000: {"name": "Extract Research Probe Data", "icon": ""}, #unact ?
+    000: {"name": "Collect Gloom-Infused Oil", "icon": ""}, # unact ?
+    000: {"name": "Restart Pumps", "icon": ""}, # unact ?
+    855359723793209600: {"name": "Eliminate Brood Commanders", "icon": "mis_ebc"},
+    182683792: {"name": "Restore Air Quality", "icon": "mis_raq"},
+    14592424392563800000: {"name": "Purge Hatcheries", "icon": "mis_ph"},
+    14643417292592902000: {"name": "Blitz: Search and Destroy", "icon": "mis_bsd"},
+    000: {"name": "Activate Terminid Control System", "icon": ""}, # unact
+    2621213607: {"name": "Eradicate Terminid Swarm", "icon": "mis_ets"},
+    185172096980086500: {"name": "Activate Oil Pumps", "icon": "mis_aop"},
+    13022957253915498000: {"name": "Eliminate Chargers", "icon": "mis_ec"},
+    000: {"name": "Chart Terminid Tunnels", "icon": ""}, # unact ?
+    1264558454691240700: {"name": "Destroy Spore Lung", "icon": "mis_dsl"},
+    546245919496251330: {"name": "Nuke Nursery", "icon": "mis_nn"},
+    185172096777000700: {"name": "Enable Oil Extraction", "icon": "mis_eoe"},
+    11329666246373274000: {"name": "Eliminate Bile Titans", "icon": "mis_ebt"},
+    2598802152827100200: {"name": "Cleanse Infested District", "icon": "mis_cid"},
+    10641164572220522000: {"name": "Eliminate Impaler", "icon": "mis_ei"},
+    # bot
+    4039472260: {"name": "Neutralize Ground-to-Orbit Defenses", "icon": "mis_nod"},
+    16: {"name": "Eradicate Automaton Forces", "icon": "mis_eradicate_bot"},
+    17: {"name": "Destroy Airfield", "icon": "mis_airfield"},
+    18: {"name": "Destroy Command Bunker", "icon": "mis_cmd_bunker"},
+    19: {"name": "Sabotage Supply Depot", "icon": "mis_supply_depot"},
+    20: {"name": "Sabotage Airbase", "icon": "mis_airbase"},
+    21: {"name": "Destroy Orbital Cannons", "icon": "mis_orb_cannons"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    # squid
+    22: {"name": "Repel Illuminate Incursion", "icon": "mis_repel_illuminate"},
+    23: {"name": "Disrupt Illuminate Monoliths", "icon": "mis_disrupt_monoliths"},
+    24: {"name": "Disable Warp Beacon", "icon": "mis_disable_warp_beacon"},
+    25: {"name": "Eradicate Illuminate Warband", "icon": "mis_eradicate_illuminate"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+    000: {"name": "123", "icon": "mis_123"},
+}
