@@ -49,7 +49,7 @@
     },
     "8761561951219758100": {
       "name": "Retrieve Recon Craft Intel",
-      "icon": "mis_rrci"
+      "icon": "mis_data"
     },
     "13000162715830987000": {
       "name": "Launch ICBM",
@@ -57,7 +57,7 @@
     },
     "14148283958100287000": {
       "name": "Retrieve Valuable Data",
-      "icon": "mis_rvd"
+      "icon": "mis_data"
     },
     "375379483891663300": {
       "name": "Emergency Evacuation",
