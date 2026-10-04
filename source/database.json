@@ -73,7 +73,7 @@
     },
     "11535262503238590000": {
       "name": "Extract E-711",
-      "icon": "mis_e711"
+      "icon": "mis_oil"
     },
     "855359723793209600": {
       "name": "Eliminate Brood Commanders",
@@ -113,7 +113,7 @@
     },
     "185172096777000700": {
       "name": "Enable Oil Extraction",
-      "icon": "mis_eoe"
+      "icon": "mis_oil"
     },
     "11329666246373274000": {
       "name": "Eliminate Bile Titans",
