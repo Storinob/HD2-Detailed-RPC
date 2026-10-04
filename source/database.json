@@ -29,7 +29,7 @@
   "missions": {
     "1803185034": {
       "name": "Start Fuel Pumps",
-      "icon": "mis_sfp"
+      "icon": "mis_oil"
     },
     "4255863235": {
       "name": "Upload Escape Pod Data",
@@ -37,7 +37,7 @@
     },
     "9931639163850870800": {
       "name": "Conduct Geological Survey",
-      "icon": "mis_cgs"
+      "icon": "mis_mine"
     },
     "5175037935804739600": {
       "name": "Spread Democracy",
@@ -161,7 +161,7 @@
     },
     "14280615972016769000": {
       "name": "Annex Untapped Mineral Sites",
-      "icon": "mis_aums"
+      "icon": "mis_mine"
     },
     "13818454226034295000": {
       "name": "Destroy Transmission Network",
