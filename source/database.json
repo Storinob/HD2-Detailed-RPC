@@ -63,6 +63,10 @@
       "name": "Emergency Evacuation",
       "icon": "mis_ee"
     },
+    "26": {
+      "name": "Evacuate High-Value Assets",
+      "icon": "mis_ehva"
+    },
     "14782369304093755000": {
       "name": "Conduct Mobile E-711 Extraction",
       "icon": "mis_cm711e"
@@ -123,33 +127,85 @@
       "name": "Eliminate Impaler",
       "icon": "mis_ei"
     },
-    "4039472260": {
-      "name": "Neutralize Ground-to-Orbit Defenses",
-      "icon": "mis_nod"
+    "6316229772265898000": {
+      "name": "Eliminate Devastators",
+      "icon": "mis_ed"
     },
-    "16": {
+    "6521046029314698200": {
+      "name": "Commando: Acquire Evidence",
+      "icon": "mis_cae"
+    },
+    "1349750257322146300": {
+      "name": "Commando: Extract Intel",
+      "icon": "mis_cei"
+    },
+    "12528614504895402000": {
+      "name": "Commando: Secure Black Box",
+      "icon": "mis_csbb"
+    },
+    "15218756663852014000": {
+      "name": "Sabotage Supply Bases",
+      "icon": "mis_ssb"
+    },
+    "6571562431272292400": {
+      "name": "Confiscate Assets",
+      "icon": "mis_ca"
+    },
+    "897494237": {
+      "name": "Seize Industrial Complex",
+      "icon": "mis_sic"
+    },
+    "18417310538253779000": {
+      "name": "Sabotage Orgo-Plasma Synthesis",
+      "icon": "mis_sops"
+    },
+    "14280615972016769000": {
+      "name": "Annex Untapped Mineral Sites",
+      "icon": "mis_aums"
+    },
+    "13818454226034295000": {
+      "name": "Destroy Transmission Network",
+      "icon": "mis_dtn"
+    },
+    "1403625494": {
       "name": "Eradicate Automaton Forces",
-      "icon": "mis_eradicate_bot"
+      "icon": "mis_eaf"
     },
-    "17": {
-      "name": "Destroy Airfield",
-      "icon": "mis_airfield"
+    "7806350048686881800": {
+      "name": "Eliminate Automaton Hulks",
+      "icon": "mis_eah"
     },
-    "18": {
-      "name": "Destroy Command Bunker",
-      "icon": "mis_cmd_bunker"
+    "7934177494772811800": {
+      "name": "Sabotage Air Base",
+      "icon": "mis_sab"
+    },
+    "2620314992": {
+      "name": "Rapid Acquisition",
+      "icon": "mis_ra"
     },
     "19": {
-      "name": "Sabotage Supply Depot",
-      "icon": "mis_supply_depot"
+      "name": "Halt Cyborg Production",
+      "icon": "mis_hcp"
     },
-    "20": {
-      "name": "Sabotage Airbase",
-      "icon": "mis_airbase"
+    "17349401253838682000": {
+      "name": "Neutralize Ground-to-Orbit Defenses",
+      "icon": "mis_ngod"
     },
-    "21": {
-      "name": "Destroy Orbital Cannons",
-      "icon": "mis_orb_cannons"
+    "10332663140065804000": {
+      "name": "Eliminate Automaton Factory Strider",
+      "icon": "mis_eafs"
+    },
+    "16488759031929328000": {
+      "name": "Blitz: Search And Destroy",
+      "icon": "mis_bsda"
+    },
+    "18417310538269159000": {
+      "name": "Blitz: Destroy Bio-Processors",
+      "icon": "mis_bdbp"
+    },
+    "12077596262780387000": {
+      "name": "Destroy Command Bunkers",
+      "icon": "mis_dcb"
     },
     "22": {
       "name": "Repel Illuminate Incursion",
