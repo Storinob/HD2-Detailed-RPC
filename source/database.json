@@ -211,21 +211,41 @@
       "name": "Destroy Command Bunkers",
       "icon": "mis_dcb"
     },
+    "10562144419368137000": {
+      "name": "Blitz: Destroy Illuminate Warp Ships",
+      "icon": "mis_ieradic"
+    },
+    "20": {
+      "name": "Democratize the Void",
+      "icon": "mis_dtv"
+    },
+    "21": {
+      "name": "Blitz: Destroy Illuminate Warp Gateways",
+      "icon": "mis_ieradic"
+    },
     "22": {
-      "name": "Repel Illuminate Incursion",
-      "icon": "mis_repel_illuminate"
+      "name": "Infiltrate Illuminate Lair",
+      "icon": "mis_iil"
     },
     "23": {
-      "name": "Disrupt Illuminate Monoliths",
-      "icon": "mis_disrupt_monoliths"
+      "name": "Evacuate Colonists",
+      "icon": "same_as_mis_ee"
+    },
+    "14864480583493079000": {
+      "name": "Take Down Overship",
+      "icon": "mis_tdo"
+    },
+    "9487896342901174300": {
+      "name": "Free Colony",
+      "icon": "mis_fc"
     },
     "24": {
-      "name": "Disable Warp Beacon",
-      "icon": "mis_disable_warp_beacon"
+      "name": "Destroy Harvesters",
+      "icon": "not_found"
     },
     "25": {
-      "name": "Eradicate Illuminate Warband",
-      "icon": "mis_eradicate_illuminate"
+      "name": "Extract Anomalous Material",
+      "icon": "not_found"
     }
   }
 }
